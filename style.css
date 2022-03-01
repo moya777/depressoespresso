@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300;1,400&display=swap');
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: rgb(172, 131, 85);
+}
+
+p{ font-weight: lighter;}
+
+h1,h2{font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif}
+  

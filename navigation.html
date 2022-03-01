@@ -1,13 +1,49 @@
 
 <!DOCTYPE html>
+<head> 
+    <style>
+        ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(65, 39, 0);
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 50px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+    border-right: 1px solid #bbb;
+  }
+
+    li:last-child {
+    border-right: none;
+}
+    </style>
+</head>
 <html>
     <body> 
-     
-    <a href="index.html" target = "_parent"> Home </a>
-    <a href="about.html" target = "_parent"> About </a>
-    <a href="testimonails.html" target = "_parent"> Testimonials </a>
-    <a href="resources.html" target = "_parent"> Resources </a>
-
+        <ul>
+            <li><a href="index.html" target = "_parent"> Home </a></li>
+            <li><a href="about.html" target = "_parent"> About </a></li>
+            <li><a href="testimonials.html" target = "_parent"> Testimonials </a></li>
+            <li><a href="resources.html" target = "_parent"> Resources </a></li>
+          </ul>
 
     </body>
 </html>
