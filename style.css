@@ -1,11 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Ubuntu:ital,wght@1,300;1,400&display=swap');
 
 body {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Roboto Slab', serif;
     background-color: rgb(172, 131, 85);
+    font-size: large;
 }
 
 p{ font-weight: lighter;}
 
-h1,h2{font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif}
+hr { background-color: rgb(41, 18, 0); height: 1px; border: 0; }
+
+img {
+        margin: 20px;
+    }
+
   
