@@ -13,5 +13,12 @@ hr { background-color: rgb(41, 18, 0); height: 1px; border: 0; }
 img {
         margin: 20px;
     }
+table, td, tr, th {
+    border: 1px solid;
+    border-collapse: collapse;
 
-  
+}
+
+tr:nth-child(even) {
+    background-color: #7a5f3e;
+  }
