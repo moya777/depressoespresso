@@ -6,7 +6,10 @@ body {
     font-size: large;
 }
 
-p{ font-weight: lighter;}
+p{ font-weight: lighter;
+    border: 2px;
+    
+}
 
 hr { background-color: rgb(41, 18, 0); height: 1px; border: 0; }
 
