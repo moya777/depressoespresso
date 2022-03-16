@@ -23,5 +23,19 @@ table, td, tr, th {
 }
 
 tr:nth-child(even) {
-    background-color: #7a5f3e;
+    background-color: #856743;
+  }
+
+  input[type = "submit"] {
+      background-color : rgb(209, 178, 120);
+      border-radius: 5%;
+      
+  }
+  input, textarea {
+    background-color : rgb(209, 178, 120);
+    border-radius: 5px ;
+  }
+
+  textarea{
+      resize: none;
   }
