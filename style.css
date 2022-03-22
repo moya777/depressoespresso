@@ -53,3 +53,23 @@ tr:nth-child(even) {
 .float-left{
     float: left;
 }
+
+h1{
+    text-decoration: underline;
+    text-align: center;
+}
+
+@media screen and (max-width : 480px){
+    iframe{
+        height: 170px;
+    }
+
+    .float-left , .float-right{
+        float:none;
+    }
+
+    img{
+        height: 30 ;
+        width: 480;
+    }
+}
