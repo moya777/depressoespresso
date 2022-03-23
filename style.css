@@ -41,7 +41,7 @@ tr:nth-child(even) {
   }
 
   input[type = "submit"]:hover {
-    background-color : rgb(179, 141, 71);
+    background-color : #b38d47;
     border-radius: 4px;
     
 }
@@ -57,6 +57,11 @@ tr:nth-child(even) {
 h1{
     text-decoration: underline;
     text-align: center;
+}
+
+
+iframe{
+    position: sticky;
 }
 
 @media screen and (max-width : 480px){
