@@ -2,8 +2,9 @@
 
 body {
     font-family: 'Roboto Slab', serif;
-    background-color: rgb(172, 131, 85);
+    background-color: #c39361;
     font-size: large;
+    margin: 0px;
 }
 
 p{ font-weight: lighter;
@@ -77,4 +78,31 @@ iframe{
         height: 30 ;
         width: 480;
     }
+}
+
+.lav{
+    background-color: lightseagreen;
+}
+
+.lav p {
+    background-color: green;
+}
+
+.footer{
+    left: 0px;
+    bottom: 0px;
+    background-color: #d6b589;
+
+}
+
+.footer li a {
+    display:block;
+    color: white;
+    text-align: center;
+    padding: 12px 50px;
+    text-decoration: underline;
+}
+
+.footer ul{
+    list-style-type: none;
 }
